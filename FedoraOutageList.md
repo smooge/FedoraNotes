@@ -4,7 +4,7 @@
 
 | VirtHost  | ClientSystem | Updated | Rebooted | Who Did It? | Issues?  |
 | --------  | ------------ | ------- | -------- | ----------- | -------- |
-| bvirthost01.stg | buildvm-01.stg | Text    | Text     |             |          |
+| bvirthost01.stg | buildvm-01.stg | Text    | Text     |  santa           |          |
 | bvirthost01.stg | buildvm-02.stg | Text    | Text     |             |          |
 | bvirthost01.stg | buildvm-03.stg | Text    | Text     |             |          |
 | bvirthost01.stg | buildvm-04.stg | Text    | Text     |             |          |
@@ -51,6 +51,47 @@
 | virthost03.stg | elections01.stg | Text    | Text     |             |          |
 | virthost03.stg | fedimg01.stg | Text    | Text     |             |          |
 | virthost03.stg | fedocal01.stg | Text    | Text     |             |          |
+| virthost03.stg | koschei-backend01.stg | Text    | Text     |             |          |
+| virthost03.stg | koschei-web01.stg | Text    | Text     |             |          |
+| virthost03.stg | loopabull01.stg | Text    | Text     |             |          |
+| virthost03.stg | mailman01.stg | Text    | Text     |             |          |
+| virthost03.stg | mbs-frontend02.stg | Text    | Text     |             |          |
+| virthost03.stg | mdapi01.stg | Text    | Text     |             |          |
+| virthost03.stg | memcached01.stg | Text    | Text     |             |          |
+| virthost03.stg | mm-crawler01.stg | Text    | Text     |             |          |
+| virthost03.stg | modernpaste01.stg | Text    | Text     |             |          |
+| virthost03.stg | nuancier01.stg | Text    | Text     |             |          |
+| virthost03.stg | os-master02.stg | Text    | Text     |             |          |
+| virthost03.stg | pdc-backend03.stg | Text    | Text     |             |          |
+| virthost03.stg | pgbdr02.stg | Text    | Text     |             |          |
+| virthost03.stg | rabbitmq03.stg | Text    | Text     |             |          |
+| virthost03.stg | sundries01.stg | Text    | Text     |             |          |
+| virthost04.stg | autocloud-backend01.stg | Text    | Text     |             |          |
+| virthost04.stg | autosign01.stg | Text    | Text     |             |          |
+| virthost04.stg | fas01.stg | Text    | Text     |             |          |
+| virthost04.stg | freshmaker-backend01.stg | Text    | Text     |             |          |
+| virthost04.stg | ipa01.stg | Text    | Text     |             |          |
+| virthost04.stg | notifs-web02.stg | Text    | Text     |             |          |
+| virthost04.stg | oci-candidate-registry01.stg | Text    | Text     |             |          |
+| virthost04.stg | oci-registry01.stg | Text    | Text     |             |          |
+| virthost04.stg | odcs-backend01.stg | Text    | Text     |             |          |
+| virthost04.stg | odcs-frontend01.stg | Text    | Text     |             |          |
+| virthost04.stg | osbs-master01.stg | Text    | Text     |             |          |
+| virthost04.stg | osbs-node01.stg | Text    | Text     |             |          |
+| virthost04.stg | osbs-node02.stg | Text    | Text     |             |          |
+| virthost04.stg | pdc-backend01.stg | Text    | Text     |             |          |
+| virthost04.stg | pdc-backend02.stg | Text    | Text     |             |          |
+| virthost04.stg | sign-bridge01.stg | Text    | Text     |             |          |
+| virthost04.stg | sign-vault01.stg | Text    | Text     |             |          |
+| virthost05.stg | autocloud-backend02.stg | Text    | Text     |             |          |
+| virthost05.stg | busgateway01.stg | Text    | Text     |             |          |
+| virthost05.stg | composer.stg | Text    | Text     |             |          |
+| virthost05.stg | copr-frontend02.stg | Text    | Text     |             |          |
+| virthost05.stg | db-fas01.stg | Text    | Text     |             |          |
+| virthost05.stg | db01.stg | Text    | Text     |             |          |
+| virthost05.stg | mm-backend01.stg | Text    | Text     |             |          |
+| virthost05.stg | notifs-backend01.stg | Text    | Text     |             |          |
+| virthost05.stg | pkgs01.stg | Text    | Text     |             |          |
 
 
 ## Build Hosts
