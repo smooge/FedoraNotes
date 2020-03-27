@@ -10,41 +10,90 @@ IAD2 - Ashburn Equinix datacentre
 The following lists cover the hardware which is being shipped at specific dates and where the hardware is going.
 
 #### April 13 Cloud to RDU-CC
+| Serial No | Model | Mac Address  | Current Hostname | New Hostname |
+| --------- | ----- | -----------  | ---------------- | ------------ | 
+| NX0217070118 | juniper | ??? | | |
+| PE3715270604 | juniper | ??? | | |
+| 72000144161487 | OpenGear | ??? | rack 156 open | opengear02.rdu-cc. |
+| 3PAC-A0001E | Mustang | ??? | ??? | ??? |
+| 3PBC-A00016 | Mustang | ??? | ??? | ??? |
+| 2123A7A | Power8 | ??? | ??? | ??? |
+| BM3RS13 | Dell R6550 | ??? | copr-vmhost01 | copr-vmhost01 |
+| BM4KS13 | Dell R6550 | ??? | copr-vmhost02 | copr-vmhost02 |
+| BM4MS13 | Dell R6550 | ??? | copr-vmhost03 | copr-vmhost03 |
+| BM4LS13 | Dell R6550 | ??? | copr-vmhost04 | copr-vmhost04 |
+| J300MBLP | Len Ampr | ??? | cloud-a64 | cloud-a64 |
+| 5MHHS13 | Dell R7550 | ??? | retrace03 | ???? |
+| 6KFBR22 | Dell R630 | ??? | ??? | cloudvmhost-x86_64-01 |
+| 8KRW842 | Dell R630 | ??? | ??? | cloudvmhost-x86_64-02 |
+| 9D15SD2 | Dell FX | ??? | lots-o-stuff | lots-o-stuff |
+| NX0217080035 | juniper | ??? | | |
+| PE3716010224 | juniper | ??? | | |
+| TA3717020687 | 10g switch | ??? | | |
+| 2123A6A | Power8 | ??? | ??? | ??? |
+| 00D0-0803-001E-31F1-8200-8000 | Cavium 1 | ??? | ??? | ??? |
+| 0090-0C03-001E-31F1-8200-8000 | Cavium 2 | ??? | ??? | ??? |
+| D149GK2 | Dell FX | ??? | lots-o-stuff | lots-o-stuff |
+| E00977 | Storinator | ??? | storinator01 | storinator01 |
 
 
 #### April 13 MVF to IAD
 
-#### May 15 OpenQA to IAD
+
+| Serial No | Model | Mac Address  | Current Hostname | New Hostname |
+| --------- | ----- | -----------  | ---------------- | ------------ |
+| 72000144161487   | OpenGear | ??? | rack 146 open | opengear01.rdu-cc. |
+| 8KRV842 | Dell R630 | B8:2A:72:FC:ED:22 | fed-cloud12 | vmh-x64-09.iad |
+| 8KPW842 | Dell R630 | B8:2A:72:FC:F2:2E | fed-cloud13 | vmh-x64-10.iad |
+| J300MBV2  | Len Ampr  | E8:6A:64:39:18:99 | vhm-a-22    | vmh-a64-01.iad |
+| J300MBPW  | Len Ampr  | E8:6A:64:39:18:85 | vhm-a-21    | vmh-a64-02.iad |
+| 1VHTMN2   | Dell R430 | ??? | sign02 | sign02 |
+| 1VH7CP2   | Dell R430 | ??? | bkernel04 | bkernel04 |
+| 3PBD-A0000Z | Mustang | ??? | ??? | ??? |
+| 3PBD-A0004P | Mustang | ??? | ??? | ??? |
+| 130C7BA | Power9 | ??? | ??? | ??? |
+| 212311A | Power8 | ??? | ??? | ??? |
+| J300VGN1  | Len Ampr  | E8:6A:64:97:6B:49 | oqa-a-02    | oqa-a-01.iad |
+| 1483H13 | Dell R640 | ??? | ??? | vhm-qa-01.qa |
+| 1490H13 | Dell R640 | ??? | ??? | vhm-qa-02.qa |
+| 1491H13 | Dell R640 | ??? | ??? | oqa-x86-01.qa |
+| 8KQV842 | Dell R630 | ??? | fed-cloud-15 | oqa-x86-02.qa |
+| 130FV3A | Power 9 | ??? | ??? | oqa-p64 |
+
 
 #### June 1st Fedora to IAD
 
+| Serial No | Model | Mac Address  | Current Hostname | New Hostname |
+| --------- | ----- | -----------  | ---------------- | ------------ |
+| 
+
 ### Week 00 (2020-03-02 -> 2020-03-08)
- - [ ] Hardware shipping needs to be planned out
- - [ ] Rack layouts for IAD2 and RDU-CC need to be finalized
- - [ ] Work with RH IT on what they need in network diagrams
+ - [x] Hardware shipping needs to be planned out
+ - [x] Rack layouts for IAD2 and RDU-CC need to be finalized
+ - [x] Work with RH IT on what they need in network diagrams
 ### Week 01 (2020-03-09 -> 2020-03-15)
+
+ - [x] Get RHEL-8 virthost built
+ - [x] Deliver network diagrams to RHIT
+ - [x] Announce at downtime for communishift 
+ - [x] ~~Try to find a place for communishift to temp run? - no~~
+### Week 02 (2020-03-16 -> 2020-03-22)
+ - [x] 2020-03-17 Fedora 32 Beta Date
+### Week 03 (2020-03-23 -> 2020-03-29)
+ - [x] Re-Announce downtime for communishift 
+ - [x] Get updated tasks and timeline set out
+ - [x] Work out COVID-19 Contingencies
+### Week 04 (2020-03-30 -> 2020-04-05)
  - [ ] Collect all mgmt mac addresses
  - [ ] Get networking vlans for new RDU-CC internal network for mgmt
- - [ ] Create template DHCP for mgmt hosts
- - [ ] Set 40 mgmt interfaces to DHCP 
- - [ ] Get RHEL-8 virthost built
- - [ ] Deliver network diagrams to RHIT
- - [ ] also invite them to test when back up
- - [ ] Announce at downtime for communishift 
- - [ ] Try to find a place for communishift to temp run? - no
-### Week 02 (2020-03-16 -> 2020-03-22)
- - [ ] 2020-03-17 Fedora 32 Beta Date
- - [ ] Set 40 mgmt interfaces to DHCP 
- - [ ] Re-Announce downtime for communishift 
- - [ ] Get network layout for PHX2 finalized
-### Week 03 (2020-03-23 -> 2020-03-29)
+ - [ ] Create template DHCP for mgmt hosts 
+ - [ ] Get network layout for RDU-CC finalized
  - [ ] Work with IT on any network layout issues left for site.
- - [ ] Set 40 mgmt interfaces to DHCP 
+ - [ ] Set mgmt interfaces to DHCP 
  - [ ] Set up mgmt interfaces in IAD2
  - [ ] Re-Announce downtime for communishift 
  - [ ] Schedule and Move any required communishift items to 'cloud?'
  - [ ] Work out temporary root password for installs
-### Week 04 (2020-03-30 -> 2020-04-05)
  - [ ] MVFE base hardware and networking should be available in new cage
  - [ ] Finish mgmt configuration of PHX2 systems
  - [ ] Build out minimum operating systems on hardware
