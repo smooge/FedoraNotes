@@ -59,6 +59,7 @@ The following lists cover the hardware which is being shipped at specific dates 
 | 1491H13 | Dell R640 | ??? | ??? | oqa-x86-01.qa |
 | 8KQV842 | Dell R630 | ??? | fed-cloud-15 | oqa-x86-02.qa |
 | 130FV3A | Power 9 | ??? | ??? | oqa-p64 |
+| 869ZLR2 | Dell R630 | ??? | virthost05 | bvhm-02 |
 
 
 #### June 1st Fedora to IAD
@@ -84,29 +85,45 @@ The following lists cover the hardware which is being shipped at specific dates 
  - [x] Get updated tasks and timeline set out
  - [x] Work out COVID-19 Contingencies
 ### Week 04 (2020-03-30 -> 2020-04-05)
- - [ ] Collect all mgmt mac addresses
- - [ ] Get networking vlans for new RDU-CC internal network for mgmt
+ - [ ] Virthost03 skunkworks (kevin)
+     - [ ] RHEL-8 install
+     - [ ] test encryption over bridge
+     - [ ] test TEAM network
+ - [ ] Virthost05 skunkworks (kevin)
+     - [ ] uefi EL8 install instructions
+     - [ ] secure boot. 
  - [ ] Create template DHCP for mgmt hosts 
  - [ ] Get network layout for RDU-CC finalized
+     - [ ] public ip address count and space needed
+     - [ ] mgmt network 172.23.1.??/24 
+     - [ ] private network for openshift backnodes 172.23.2.??/24
+     - [ ] setup a bastion host
+         - [ ] ssh
+         - [ ] https
+         - [ ] tftp
+         - [ ] dhcp 
+         - [ ] chrony
+         - [ ] unbound
+         - [ ] general phx2
+     - [ ] communishift proxies with private + external interfaces  
  - [ ] Work with IT on any network layout issues left for site.
- - [ ] Set mgmt interfaces to DHCP 
- - [ ] Set up mgmt interfaces in IAD2
+ - [ ] Write howto on Dell mgmt setup (smooge)
+     - [ ] set ip address in mac
+     - [ ] set up admin user
+     - [ ] set ipmi and serial over lan access
+ - [ ] Collect all mgmt mac addresses
+ - [ ] Collect all hardware mac addresses for debugging
+ - [ ] Set mgmt interfaces to DHCP before getting shipped
+     - [ ] opengear
+     - [ ] amperes
+     - [ ] power hardware
  - [ ] Re-Announce downtime for communishift 
- - [ ] Schedule and Move any required communishift items to 'cloud?'
+ - [ ] Set up noggin service in AWS to replace communishift (kevin)
  - [ ] Work out temporary root password for installs
- - [ ] MVFE base hardware and networking should be available in new cage
- - [ ] Finish mgmt configuration of PHX2 systems
- - [ ] Build out minimum operating systems on hardware
- - [ ] Configure and build specific services:
-   - [ ] bastion
-   - [ ] config-mgmt (batcave)
-   - [ ] dns
-   - [ ] noc/dhcp
-   - [ ] log-server
- - [ ] Re-Announce downtime for communishift 
- - [ ] Move any required communishift items to 'cloud?'
 ### Week 05 (2020-04-06 -> 2020-04-12)
  - [ ] 2020-04-07 Fedora 32 Final Freeze
+ - [ ] MVFE base hardware and networking should be available in new cage
+ - [ ] Set up mgmt interfaces in IAD2
  - [ ] Configure and build out build systems at IAD2
    - [ ] database servers
    - [ ] build hosts
@@ -115,13 +132,24 @@ The following lists cover the hardware which is being shipped at specific dates 
    - [ ] etc/etc
  - [ ] Begin takedown of communishift hardware
  - [ ] Power needs to be ready in RDU-CC cage
+ - [ ] Build out minimum operating systems on hardware
+     - [ ] Install RHEL-8 via drac
+     - [ ] Setup bridge interfaces
+ - [ ] Configure and build specific services:
+     - [ ] bastion
+     - [ ] config-mgmt (batcave)
+     - [ ] dns
+     - [ ] noc/dhcp
+     - [ ] log-server
+     - [ ] tang
 ### Week 06 (2020-04-13 -> 2020-04-19)
  - [ ] Communishift 13th April - 1st May 
-   - [ ] box should arrive on 22nd
-   - [ ] Power should be on by 17th - this is power to RDU-CC 
-   - [ ] Rerack from 27th 1st may
-   - [ ] test and good to go by May 8th
-   - [ ] Announce to FAS group link
+     - [ ] Power off systems in racks
+     - [ ] Work with logistics for pack and move
+     - [ ] Power should be on by 17th - this is power to RDU-CC 
+     - [ ] Rerack from 27th 1st may
+     - [ ] test and good to go by May 8th
+     - [ ] Announce to FAS group link
  - [ ] Take down and ship communishift hardware to RDU-CC
  - [ ] Take down and ship extra hardware to IAD2
  - [ ] Configure and build out prod systems at IAD2
@@ -135,6 +163,8 @@ The following lists cover the hardware which is being shipped at specific dates 
    - [ ] work with PNT/Shauns team to get systems racked
    - [ ] power up communishift
    - [ ] change ips and other config work
+   - [ ] instructions on how to install openshift. 
+ - [ ] Move final virthost-cc boxes into new RDU-CC racks
  - [ ] Hardware should arrive at IAD2
    - [ ] work with Shauns team to get systems racked/stacked in 101
    - [ ] begin configuration and set up of moved systems
@@ -145,10 +175,8 @@ The following lists cover the hardware which is being shipped at specific dates 
  - [ ] Get SMTP rules 
 ### Week 09 (2020-05-04 -> 2020-05-10)
  - [ ] 2020-05-05 Fedora 32 2nd release window
- - [ ] Move final virthost-cc boxes into new RDU-CC racks
- - [ ] Take down part of openqa for shipment to IAD2
+
 ### Week 10 (2020-05-11 -> 2020-05-17) 
- - [ ] QA infrastructure shipped to IAD2
  - [ ] Change Fedora DNS to shorter times for major change
 ### Week 11 (2020-05-18 -> 2020-05-24)
  - [ ] Final checklist and approval of IAD2 MVFE 
@@ -158,7 +186,6 @@ The following lists cover the hardware which is being shipped at specific dates 
    - [ ] Test openvpn
    - [ ] Test rsync
    - [ ] Test route to s390x
- - [ ] Get hardware from QA shipment racked to IAD2
  - [ ] Bring up openqa in IAD2
 ### Week 12 (2020-05-25 -> 2020-05-31)
  - [ ] Move logical infrastructure to IAD2 MVFE
