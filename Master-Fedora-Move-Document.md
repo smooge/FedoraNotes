@@ -64,9 +64,83 @@ The following lists cover the hardware which is being shipped at specific dates 
 
 #### June 1st Fedora to IAD
 
-| Serial No | Model | Mac Address  | Current Hostname | New Hostname |
-| --------- | ----- | -----------  | ---------------- | ------------ |
-| 
+| Serial No | Model | Current Hostname | Current Rack | New Rack | New Hostname |
+| --------- | ----- | ---------------- | ------------ | -------- | ------------ |
+| J300VGN1 | Ampere | J300MBPW | Rack 150 | 1 | ??? |
+| J300MBMH | Ampere | J300MBV2 | Rack 147 | 1 | ??? |
+| 8KPW842 | Dell R630 | fed-cloud13 | Rack 157 | 1 | ??? |
+| 1VHTMN2 | Dell R430 | sign02 | Rack 148 | 1 | ??? |
+| 1VH7CP2 | Dell R430 | bkernel04 | Rack 150 | 1 | ??? |
+| 3PBD-A0000Z | Mustang | 3PBC-A0000Z | Rack 146 | 1 | ??? |
+| 3PBD-A0004P | Mustang | 3PBD-A0004P | Rack 146 | 1 | ??? |
+| 130C7BA | IBM Power 9 | 130C7BA | Rack 147 | 1 | ??? |
+| 212311A | IBM Power 8 | 212311A | Rack 147 | 1 | ??? |
+| 8FVCGB2 | Dell R630 | virthost02.stg | Rack 153 | 2 | ??? |
+| CLTDMN2 | Dell R630 | virthost01.stg | Rack 153 | 2 | ??? |
+| 869ZLR2 | Dell R640 | virthost05 | Rack 154 | 2 | ??? |
+| 8694MR2 | Dell R640 | virthost04 | Rack 154 | 2 | ??? |
+| 8D3NCH2 | Dell R630 | virthost06 | Rack 153 | 2 | ??? |
+| 8KQW842 | Dell R630 | virthost02 | Rack 153 | 2 | ??? |
+| 1VHVMN2 | Dell R430 | sign01 | Rack 148 | 2 | ??? |
+| 6CHVC42 | Dell R630 | backup01 | Rack 155 | 2 | ??? |
+| 1VHVMN2 | Dell R430 | sign01 | Rack 148 | 2 | ??? |
+| 2LTSCP2 | Dell R730 | virthost01 | Rack 153 | 2 | ??? |
+| CKTFMN2 | Dell R630 | virthost12 | Rack 155 | 2 | ??? |
+| FH94S52 | Dell R630 | virthost22 | Rack 154 | 2 | ??? |
+| 8KQV842 | Dell R630 | fed-cloud15 | Rack 157 | 2 | ??? |
+| 60ZG282 | Dell R630 | bvirthost01  | Rack 148 | 2 | ??? |
+| 8D3PCH2 | Dell R630 | bvirthost04 | Rack 149 | 2 | ??? |
+| 1Q2ZHK2 | Dell R630 | bvirhost05 | Rack 149 | 2 | ??? |
+| CLTLMN2 | Dell R630 | bvirthost13 | Rack 149 | 2 | ??? |
+| CLTKMN2 | Dell R630 | bvirthost14 | Rack 149 | 2 | ??? |
+| CLTGMN2 | Dell R630 | bvirthost15 | Rack 149 | 2 | ??? |
+| 1VH6CP2 | Dell R430 | bkernel03 | Rack 150 | 2 | ??? |
+| CLTHMN2 | Dell R630 | virthost14 | Rack 154 | 2 | ??? |
+| DVT7S52 | Dell R630 | virthost19 | Rack 154 | 2 | ??? |
+| DVTS52 | Dell R630 | virthost21 | Rack 154 | 2 | ??? |
+| CLSLMN2 | Dell R630 | autosign | Rack 149 | 2 | ??? |
+| 2VLSHB2 | Dell FX2 | Builders FX | Rack 150 | 2 | ??? |
+| 130FV3A | IBM Power 9 | 130FV3A | Rack 152 | 2 | ??? |
+| 21230EA | Ibm Power 8 | 21230EA | Rack 147 | 2 | ??? |
+| 130C7AA | Ibm Power 9 | 130C7AA | Rack 147 | 3 | ??? |
+| J300MBR6 | Ampere | J300MBR6 | Rack 147 | 3 | ??? |
+| J300T2ZA | Ampere | J300T2ZA | Rack 157 | 3 | ??? |
+| J300MBPW | Ampere | J300MBPW | Rack 149 | 3 | ??? |
+| GIH1P9812A0023 | Cavium | GIH1P9812A0023 | Rack 146 | 3 | ??? |
+| J300MBT5 | Ampere | J300MBT5 | Rack 147 | 3 | ??? |
+| J300MBMR | Ampere | J300MBMR | Rack 147 | 3 | ??? |
+| J300MBRT | Ampere | J300MBRT | Rack 147 | 3 | ??? |
+| J300MBLT | Ampere | J300MBLT | Rack 149 | 3 | ??? |
+| J300MBRX | Ampere | J300MBRX | Rack 149 | 3 | ??? |
+| J300MBNG | Ampere | J300MBNG | Rack 150 | 5 | ??? |
+| J300MBLV | Ampere | J300MBLV | Rack 150 | 5 | ??? |
+| J300MBNT |  | J300MBNT | Rack 150 | 5 | ??? |
+| J300MBRH | Ampere | J300MBRH | Rack 150 | 4 | ??? |
+| DVT6S52 | Dell R630 | virthost04.stg | Rack 154 | 4 | ??? |
+| 8KRT842 | Dell R630 | virthost03.stg | Rack 153 | 4 | ??? |
+| J300MBV2 | Ampere | J300MBV2 | Rack 149 | 4 | ??? |
+| CLTJMN2 | Dell R630 | vhost-comm01 | Rack 152 | 4 | ??? |
+| 8693MR2 | Dell R640 | qa01 | Rack 151 | 4 | ??? |
+| J300MBMN | Ampere | J300MBMN | Rack 147 | 4 | ??? |
+| J300MBP4 | Ampere | J300MBP4 | Rack 147 | 4 | ??? |
+| J300MBR6 | Ampere | J300MBR6 | Rack 147 | 4 | ??? |
+| J300VGMZ | Ampere | J300VGMZ | Rack 150 | 4 | ??? |
+| 2VLRHB2 | Dell FX2 | Builders FX | Rack 148 | 4 | ??? |
+| 844BE8A | IBM Power 9 | 844BE8A | Rack 152 | 4 | ??? |
+| 21230FA | IBM Power 8 | 21230FA | Rack 147 | 4 | ??? |
+| ????    | OpenGear | Serial | Rack 146 | 5 | ??? |
+| 3PBD-A00053 | Mustang | 3PBD-A00053 | Rack 146 | 5 | ??? |
+| 3PBD-A0009P | Mustang | 3PBD-A0009P | Rack 146 | 5 | ??? |
+| 3PBD-A0009B | Mustang | 3PBD-A0009B | Rack 146 | 5 | ??? |
+| 3PBD-A0002B | Mustang | 3PBD-A0002B | Rack 146 | 5 | ??? |
+| 3PBD-A0008J | Mustang | 3PBD-A0008J | Rack 146 | 5 | ??? |
+| 3PBD-A0006W | Mustang | 3PBD-A0006W | Rack 146 | 5 | ??? |
+| 3PBD-A0004G | Mustang | 3PBD-A0004G | Rack 146 | 5 | ??? |
+| 3PBD-A0007T | Mustang | 3PBD-A0007T | Rack 146 | 5 | ??? |
+| 212310A | IBM Power 8 | 212310A | Rack 147 | 5 | ??? |
+| 844BE8A | IBM Power 8 | 844BE8A | Rack 152 | 5 | ??? |
+
+
 
 ### Week 00 (2020-03-02 -> 2020-03-08)
  - [x] Hardware shipping needs to be planned out
@@ -85,10 +159,10 @@ The following lists cover the hardware which is being shipped at specific dates 
  - [x] Get updated tasks and timeline set out
  - [x] Work out COVID-19 Contingencies
 ### Week 04 (2020-03-30 -> 2020-04-05)
- - [ ] Virthost03 skunkworks (kevin)
-     - [ ] RHEL-8 install
-     - [ ] test encryption over bridge
-     - [ ] test TEAM network
+ - [x] Virthost03 skunkworks (kevin)
+     - [x] RHEL-8 install
+     - [x] test encryption over bridge
+     - [x] test TEAM network
  - [ ] Virthost05 skunkworks (kevin)
      - [ ] uefi EL8 install instructions
      - [ ] secure boot. 
@@ -106,7 +180,7 @@ The following lists cover the hardware which is being shipped at specific dates 
          - [ ] unbound
          - [ ] general phx2
      - [ ] communishift proxies with private + external interfaces  
- - [ ] Work with IT on any network layout issues left for site.
+ - [x] Work with IT on any network layout issues left for site.
  - [ ] Write howto on Dell mgmt setup (smooge)
      - [ ] set ip address in mac
      - [ ] set up admin user
@@ -118,7 +192,7 @@ The following lists cover the hardware which is being shipped at specific dates 
      - [ ] amperes
      - [ ] power hardware
  - [ ] Re-Announce downtime for communishift 
- - [ ] Set up noggin service in AWS to replace communishift (kevin)
+ - [x] Set up noggin instance in AWS to replace communishift (kevin)
  - [ ] Work out temporary root password for installs
 ### Week 05 (2020-04-06 -> 2020-04-12)
  - [ ] 2020-04-07 Fedora 32 Final Freeze
